@@ -1,0 +1,132 @@
+
+.igme__profile-blur{
+     width: 400px;
+    height: 500px;
+    margin-right: 20px;
+    // background: radial-gradient(172.24% 152.9% at 110.68% 130.37%, rgba(218, 140, 255, 0.5) 0%, rgba(182, 77, 232, 0.2) 40.8%, rgba(4, 150, 255, 0.18) 65.1%, rgba(19, 85, 255, 0.3) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-image: linear-gradient(57deg, #000 11%, #29d3b1 32%, #29d3b1 63%, #fff 81%);
+    // background: linear-gradient(122.25deg, #ff4c88 12.16%, #ff8a63 70.98%);
+    // background-image: linear-gradient(117deg, #66d4f6, #4d92ff 35%, #bb65ff);
+    
+     -webkit-filter: blur(120px);
+    filter: blur(120px);
+        opacity: 0.33;
+}
+.igme__profile-wrap{
+     width: 85%;
+            height: 85%;
+            // border: solid 6px;
+            color: azure;
+            text-align: center;
+            font-size: 2rem;
+            position:absolute ;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+                //  border-image-source: linear-gradient(117deg, #66d4f6, #4d92ff 35%, #bb65ff);
+                // border-radius: 20px;
+                //  border-image-slice: 1;
+                //  border-width: 5px;
+ 
+            //  -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, #0005);
+            // img{
+            //     height: 100%;
+            //     width: 100%;
+            //     object-fit: cover;
+                
+            // }
+            .img1Circle{
+                 height: 100%;
+                 width: 100%;
+                position: absolute;
+                 top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+             margin: auto;
+            }
+            .img2Circle{
+                position: absolute;
+                 top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+             margin: auto;
+              height: 92%;
+             width: 92%;
+            }
+            .img3Circle{
+                 height: 83%;
+                width: 83%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+            }
+            // .imgPro{
+                    
+            // height: 70%;
+            // width: 70%;
+            // position: absolute;
+            // top: 0;
+            //     left: 0;
+            //     right: 0;
+            // bottom: 0;
+            //  margin: auto;
+            // }
+            .divProfile-igme{
+                        
+            height: 83%;
+            width: 83%;
+            position: absolute;
+            top: 0;
+                left: 0;
+                right: 0;
+            bottom: 0;
+             margin: auto;
+             background-color: #0d1117;
+             border-radius: 50%;
+             z-index: 99;
+             
+             
+             img{
+                object-fit: cover;
+                height: 100%;
+                 width: 100%;
+                border-radius: 50%;
+                
+                 
+                 
+             }
+            }
+            .gif{
+                position: absolute;
+                border-radius: 4px;
+                width: 35%;
+                height: 25%;
+                img{
+                    height: 100%;
+                     width: 100%;
+                    border-radius: inherit;
+                    opacity: 0.6;
+                }
+            }
+            .gif1{              
+                top: 20px;              
+                right: -50px;
+                           
+            }
+            .gif2{
+                 bottom: 20px;              
+                right: -50px;
+            }
+            .gif3{
+                left: -15px;
+            }
+
+
+}

@@ -1,0 +1,24 @@
+
+.form-submit{
+     height: 61px;
+     box-shadow: unset;
+     transition: box-shadow .5s ease-out, background .5s ease-out;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: linear-gradient(90deg,#4ca5ff 2.34%,#b673f8 100.78%);
+     border-radius: 6.3px;
+     color: #fff;
+     cursor: pointer;
+     border: none;
+     font-family: 'Sono', sans-serif;
+     font-size: 1.2rem;
+     font-weight: 700;
+     width: 60%;
+     &:hover{
+         box-shadow: 0 0 20px 5px rgba(255, 255, 255, .25);
+    }
+     @media screen and (max-width: 500px) {
+         font-size: 14.3px;
+    }
+}

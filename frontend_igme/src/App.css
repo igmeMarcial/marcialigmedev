@@ -1,0 +1,30 @@
+@import 'animate.css';
+
+.App{
+     background-color: blueviolet;
+     overflow: hidden;
+
+        --tw-bg-opacity: 1;
+    background-color: rgb(13 17 23/var(--tw-bg-opacity));
+}
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #424242;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #686868;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #686868;
+  border-radius: 12px;
+}
+
